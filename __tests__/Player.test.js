@@ -26,7 +26,7 @@ test('gets players stats as an object', () => {
     expect(player.getStats()).toHaveProperty('agility');
 });
 
-test('gets inventory from layer r returns false', () => {
+test('gets inventory from player returns false', () => {
     const player = new Player('Dave');
 
     expect(player.getInventory()).toEqual(expect.any(Array));
